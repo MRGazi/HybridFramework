@@ -1,0 +1,40 @@
+Tools I am using in this Framework:
+-------------------------------------
+    Selenium WebDriver - A modern testing technology that deals with web elements.
+    Java programming Language -Master Language
+    Maven - Build Tool
+    TestNG - Unit testing Framework
+    Jenkins - CI (Continuous Integration) Tools
+    Git - SCM (Source Code Management) Tools
+    Github - Web-based Code Repository
+    Page Object Model (POM) - Design Pattern
+
+Dependencies needed:
+----------------------
+    Selenium.
+    TestNG.
+    ExtentReport (Note: https://www.extentreports.com/docs/versions/5/net/index.html#v5-0-2).
+    Note: for ExtentsReports search in mvn repository with "com.aventstack".
+
+Agenda:
+---------
+    Old Approach or Test Case without Framework
+    Create Page Object Model
+    Create Base Class
+    Create Utils Libraries
+    Create Test Suite
+    How to create Excel Data provider (TestNG @DataProvider)
+    How to create Config Data provider
+    How to create Custom Library for Framework
+    Enhance BaseClass for more functionality
+    Add Extent Report and logs in framework
+    Screenshot on failure and attach to report
+
+
+POI Basics:
+--------------
+    Apache POI is an open source library developed by apache foundation which provides popular API which allows programmers to interact with MS Office files using Java Programs.
+    POI (Poor Obfuscation Implementation).
+    HSSF (Horrible Spreadsheet Format) -HSSF is pure Java implementation of the Excel '97(-2007) (.xls) file format.
+    XSSF (XML Spreadsheet Format) -XSSF is pure java implementation of Excel 2007 OOXML (.xml) file format.
+    HSSF and XSSF provides ways to work with spreadsheets with operations such as create, modify read and write to spreadsheets.
